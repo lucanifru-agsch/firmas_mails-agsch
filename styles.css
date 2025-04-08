@@ -1,0 +1,38 @@
+/* Desarrollado por Lu Canifrú */
+body {
+    background-image: url("fondo.jpg");
+        background-size: contain;
+        background-position: center center;
+        /* background-color: #001558; */
+        background-color: #011343;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-color: #001558;
+    border-color: #001558;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary.active,
+.open .dropdown-toggle.btn-secondary {
+    background-color: #feb135;
+    border-color: #feb135;
+    /* color: #001558; */
+    color: #000;
+    text-transform: uppercase;
+
+}
+
+form#firmaForm label {
+margin: 0;
+}
