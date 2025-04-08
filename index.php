@@ -1,7 +1,5 @@
 <?php
-    $version = "1.7";
- 
-    
+    $version = "1.7";    
     $nombre = $_GET['nombre'] ?? "";
     $cargo = $_GET['cargo'] ?? "";
     $linea3 = $_GET['linea3'] ?? "Asociación de Guías y Scouts de Chile";
